@@ -1,3 +1,29 @@
+#---------------------------------- 0.26.5 -----------------------------------
+[added] the ability to selectively choose rom's session caching behavior, see
+    http://pythonhosted.org//rom/rom.html#using-a-non-caching-session-object
+#---------------------------------- 0.26.4 -----------------------------------
+[fixed] forgot one reference that should have been fixed in 0.26.3. Everyone
+    should upgrade from 0.26.3 . Thanks to https://github.com/Alanperd for the
+    report and test case.
+#---------------------------------- 0.26.3 -----------------------------------
+[fixed] issue when pattern match queries would sometimes produce more results
+    than would be correct, bug report, test, and initial fix thanks to
+    https://github.com/Alanperd
+#---------------------------------- 0.26.2 -----------------------------------
+[fixed] issue when pattern-match queries wouldn't always return full results,
+    bug report, test, and initial fix thanks to https://github.com/Alanperd
+[fixed] two testing errors in Python 2.6.
+[fixed] some test cases that weren't properly namespaced for easy cleanup.
+[removed] built documention from rom source distribution (see
+    http://pythonhosted.org/rom/ instead).
+[fixed] base documention about rom including the readme is now a part of the
+    docs available at http://pythonhosted.org/rom/ , thanks to
+    https://github.com/pconerly for the report on incomplete docs.
+[fixed] added modern requirements thanks to report from
+    https://github.com/pconerly .
+[fixed] documentation on per-model connection objects.
+[removed] extraneous and confusing documentation about the `index` and
+    `columns` submodules.
 #---------------------------------- 0.26.1 -----------------------------------
 [fixed] issue with deleted entity resurrection, bug report and fix thanks to
     Justin Mayfield https://github.com/mayfield
